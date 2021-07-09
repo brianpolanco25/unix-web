@@ -205,6 +205,17 @@ h2 {
   line-height: 1.222;
 }
 
+.titulo{
+
+  color: #00d089;
+  font-size: 16px;
+  font-weight: 500;
+  position: relative;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+
+}
+
 @media (max-width: 576px) {
   /* line 103, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_common.scss */
   h2 {
@@ -494,6 +505,25 @@ ul {
   border: 1px solid transparent;
   border-radius: 50px;
   line-height: 15px;
+}
+
+.btn_menu {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #00d089;
+  font-size: 14px;
+  color: #000;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  text-transform: capitalize;
+  border-radius: 50px;
+  border: 1px solid transparent;
+  line-height: 15px;
+}
+
+.btn_menu:hover {
+  color: #fff !important;
+  background-color: #0042ff;
 }
 
 /* line 35, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_button.scss */
@@ -2183,7 +2213,6 @@ ul {
   font-size: 15px;
   padding: 40px 24px;
   font-family: "Open Sans", sans-serif;
-  text-transform: capitalize;
   line-height: 15px;
   position: relative;
   z-index: 1;
@@ -2349,7 +2378,7 @@ ul {
   height: 800px;
   position: relative;
   overflow: hidden;
-  background-image: url(../img/banner_img.png);
+  background-image: url(../img/banner_trading.jpg);
   background-repeat: no-repeat;
   background-size: content;
   background-position: center;
@@ -2825,7 +2854,7 @@ ul {
 }
 
 /* line 23, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_about_part.scss */
-.about_part .about_part_text h5 {
+.about_part .about_part_text h2 {
   color: #00d089;
   font-size: 16px;
   font-weight: 500;
@@ -2865,6 +2894,7 @@ ul {
 /* line 52, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_about_part.scss */
 .about_part .about_part_text p {
   margin-bottom: 50px;
+  font-size: 20px;
 }
 
 @media (max-width: 991px) {

@@ -5,9 +5,8 @@
         <div class="col-lg-6 offset-lg-1">
             <div class="banner_text">
             <div class="banner_text_iner">
-                <h5>We are digital agency</h5>
-                <h1>Digital and innovative idea</h1>
-                <a href="#" class="btn_1">Explore Work</a>
+                <h1>Hacemos que tu dinero trabaje por ti.</h1>
+                <a href="#" class="btn_1">Conócenos</a>
             </div>
             </div>
         </div>

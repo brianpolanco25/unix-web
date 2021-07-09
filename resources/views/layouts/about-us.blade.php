@@ -1,22 +1,28 @@
 <!-- about part start-->
-<section class="about_part section_padding">
+<section id="about-us" class="about_part section_padding">
     <div class="container">
         <div class="row align-items-center justify-content-between">
         <div class="col-md-6">
             <div class="about_part_text">
-            <h5>About Us</h5>
-            <h2>Digital design and development company</h2>
+            <h2>Sobre nosotros</h2>
             <p>
-                There winged grass midst moving earth seed herb fifth you're
-                multiply, you divide cattle stars first cattle was had spirit
-                you're thing, night darkness. Which itself stars creature.
+                <b>UTC</b> es una empresa de consultoría que brinda servicios
+                en el campo de la inversión y asesoría relacionada con 
+                el fin de ayudar a incrementar el valor de las inversiones 
+                de nuestros clientes.
             </p>
-            <a href="#" class="btn_1">explore us</a>
+
+            <p>
+                Somos una empresa de consultoría financiera con amplia 
+                experiencia en los mercados financieros e inmobiliarios 
+                nacionales e internacionales.
+            </p>
+            
             </div>
         </div>
         <div class="col-md-6">
             <div class="about_part_img">
-            <img src="img/about_part_img.png" alt="" />
+            <img src="img/inversion.jpg" alt="" />
             </div>
         </div>
         </div>

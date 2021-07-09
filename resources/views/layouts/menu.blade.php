@@ -4,8 +4,8 @@
         <div class="row align-items-center">
         <div class="col-lg-12">
             <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand" href="index.html">
-                <img src="img/logo.png" alt="logo" />
+            <a class="navbar-brand" href="{{ route('home') }}">
+                <img src="img/logo_unix.png" alt="logo" />
             </a>
             <button
                 class="navbar-toggler"
@@ -21,22 +21,28 @@
 
             <div
                 class="collapse navbar-collapse main-menu-item justify-content-center"
-                id="navbarSupportedContent"
+                id="navbarSupportedContent" 
             >
                 <ul class="navbar-nav align-items-center">
                 <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
+                    <a class="nav-link" href="{{ route('home') }}">Inicio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="about.html">About</a>
+                    <a class="nav-link" href="#about-us">Nosotros</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="services.html">services</a>
+                    <a class="nav-link" href="#">Servicios</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="blog.html">Blog</a>
+                    <a class="nav-link" href="#academy">Academia</a>
                 </li>
-                <li class="nav-item dropdown">
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contacto</a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn_menu" href="#">Inicio de sesión</a>
+                </li>
+                {{-- <li class="nav-item dropdown">
                     <a
                     class="nav-link dropdown-toggle"
                     href="blog.html"
@@ -55,10 +61,8 @@
                     >
                     <a class="dropdown-item" href="elements.html">Elements</a>
                     </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
+                </li> --}}
+                
                 </ul>
             </div>
             <div class="social_icon d-none d-lg-block">

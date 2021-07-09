@@ -5,13 +5,13 @@
         <div class="col-sm-6 col-md-3 col-xl-3">
             <div class="single-footer-widget footer_1">
             <a href="index.html">
-                <img src="img/footer_logo.png" alt="" />
+                <img src="img/logo_unix_negro.png" alt="" />
             </a>
-            <ul>
+            {{-- <ul>
                 <li><a href="#">Work</a></li>
                 <li><a href="#">Services</a></li>
                 <li><a href="#">Contact</a></li>
-            </ul>
+            </ul> --}}
             <div class="social_icon">
                 <a href="#"><i class="ti-facebook"></i></a>
                 <a href="#"><i class="ti-twitter-alt"></i></a>
@@ -79,8 +79,8 @@
                 <div class="col-lg-12">
                 <p class="footer-text m-0">
                     <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="ti-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    Copyright &copy;<script>document.write(new Date().getFullYear());</script> Todos los derechos reservados <a href="https://unixtradingcapital.com.do" target="_blank">Unix Trading Capital</a>
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                 </p>
                 </div>
             </div>
